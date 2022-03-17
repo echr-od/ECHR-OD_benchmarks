@@ -1,0 +1,214 @@
+{
+    "Multilabel": {
+        "10": {
+            "Article": "10",
+            "Size": 716,
+            "Violation": 557,
+            "No-Violation": 159,
+            "Prevalence": 0.7779329608938548
+        },
+        "11": {
+            "Article": "11",
+            "Size": 278,
+            "Violation": 239,
+            "No-Violation": 39,
+            "Prevalence": 0.8597122302158273
+        },
+        "12": {
+            "Article": "18",
+            "Size": 38,
+            "Violation": 15,
+            "No-Violation": 23,
+            "Prevalence": 0.39473684210526316
+        },
+        "13": {
+            "Article": "p1-3",
+            "Size": 70,
+            "Violation": 56,
+            "No-Violation": 14,
+            "Prevalence": 0.8
+        },
+        "14": {
+            "Article": "p4-2",
+            "Size": 53,
+            "Violation": 48,
+            "No-Violation": 5,
+            "Prevalence": 0.9056603773584906
+        },
+        "15": {
+            "Article": "7",
+            "Size": 77,
+            "Violation": 27,
+            "No-Violation": 50,
+            "Prevalence": 0.35064935064935066
+        },
+        "16": {
+            "Article": "p7-2",
+            "Size": 17,
+            "Violation": 15,
+            "No-Violation": 2,
+            "Prevalence": 0.8823529411764706
+        },
+        "17": {
+            "Article": "p4-4",
+            "Size": 8,
+            "Violation": 6,
+            "No-Violation": 2,
+            "Prevalence": 0.75
+        },
+        "18": {
+            "Article": "p7-1",
+            "Size": 6,
+            "Violation": 5,
+            "No-Violation": 1,
+            "Prevalence": 0.8333333333333334
+        },
+        "19": {
+            "Article": "p6-1",
+            "Size": 2,
+            "Violation": 2,
+            "No-Violation": 0,
+            "Prevalence": 1.0
+        },
+        "1": {
+            "Article": "5",
+            "Size": 1457,
+            "Violation": 1350,
+            "No-Violation": 107,
+            "Prevalence": 0.9265614275909403
+        },
+        "20": {
+            "Article": "p7-4",
+            "Size": 38,
+            "Violation": 28,
+            "No-Violation": 10,
+            "Prevalence": 0.7368421052631579
+        },
+        "21": {
+            "Article": "4",
+            "Size": 15,
+            "Violation": 8,
+            "No-Violation": 7,
+            "Prevalence": 0.5333333333333333
+        },
+        "22": {
+            "Article": "p1-2",
+            "Size": 26,
+            "Violation": 17,
+            "No-Violation": 9,
+            "Prevalence": 0.6538461538461539
+        },
+        "23": {
+            "Article": "34",
+            "Size": 182,
+            "Violation": 122,
+            "No-Violation": 60,
+            "Prevalence": 0.6703296703296703
+        },
+        "24": {
+            "Article": "38",
+            "Size": 44,
+            "Violation": 33,
+            "No-Violation": 11,
+            "Prevalence": 0.75
+        },
+        "25": {
+            "Article": "12",
+            "Size": 18,
+            "Violation": 9,
+            "No-Violation": 9,
+            "Prevalence": 0.5
+        },
+        "26": {
+            "Article": "p12-1",
+            "Size": 8,
+            "Violation": 5,
+            "No-Violation": 3,
+            "Prevalence": 0.625
+        },
+        "27": {
+            "Article": "25",
+            "Size": 2,
+            "Violation": 2,
+            "No-Violation": 0,
+            "Prevalence": 1.0
+        },
+        "28": {
+            "Article": "17",
+            "Size": 1,
+            "Violation": 0,
+            "No-Violation": 1,
+            "Prevalence": 0.0
+        },
+        "29": {
+            "Article": "p7-3",
+            "Size": 1,
+            "Violation": 1,
+            "No-Violation": 0,
+            "Prevalence": 1.0
+        },
+        "2": {
+            "Article": "8",
+            "Size": 1444,
+            "Violation": 1079,
+            "No-Violation": 365,
+            "Prevalence": 0.747229916897507
+        },
+        "30": {
+            "Article": "46",
+            "Size": 1,
+            "Violation": 1,
+            "No-Violation": 0,
+            "Prevalence": 1.0
+        },
+        "3": {
+            "Article": "2",
+            "Size": 687,
+            "Violation": 598,
+            "No-Violation": 89,
+            "Prevalence": 0.8704512372634643
+        },
+        "4": {
+            "Article": "3",
+            "Size": 2284,
+            "Violation": 2019,
+            "No-Violation": 265,
+            "Prevalence": 0.8839754816112084
+        },
+        "5": {
+            "Article": "13",
+            "Size": 1941,
+            "Violation": 1828,
+            "No-Violation": 113,
+            "Prevalence": 0.9417825862957239
+        },
+        "6": {
+            "Article": "p1-1",
+            "Size": 1400,
+            "Violation": 1269,
+            "No-Violation": 131,
+            "Prevalence": 0.9064285714285715
+        },
+        "7": {
+            "Article": "14",
+            "Size": 415,
+            "Violation": 222,
+            "No-Violation": 193,
+            "Prevalence": 0.5349397590361445
+        },
+        "8": {
+            "Article": "6",
+            "Size": 3580,
+            "Violation": 3243,
+            "No-Violation": 337,
+            "Prevalence": 0.9058659217877095
+        },
+        "9": {
+            "Article": "9",
+            "Size": 92,
+            "Violation": 67,
+            "No-Violation": 25,
+            "Prevalence": 0.7282608695652174
+        }
+    }
+}

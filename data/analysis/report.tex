@@ -1,0 +1,400 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+
+\begin{document}
+
+\title{ECHR-OD Benchmarks Report}
+
+
+\maketitle
+
+\tableofcontents
+
+
+\section*{Introduction}
+
+This report has been generated automatically from a template.
+
+\section{Dataset descriptions}
+
+This section contains a description of the datasets used for the benchmarks.
+Table \ref{table:binary_datasets} describes binary datasets. Table \ref{table:multiclass_datasets} describes the multiclass dataset and Table \ref{table:multilabel_datasets} describes the multilabel dataset.
+
+\input{data/analysis/tables/binary_datasets_summary.tex}~\\
+\newpage
+
+\input{data/analysis/tables/multiclass_datasets_summary.tex}~\\
+\newpage
+
+\input{data/analysis/tables/multilabel_datasets_summary.tex}~\\
+\newpage
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{data/analysis/labels_per_cases.png}
+    \caption{Histogram representing the number of labels per cases for the multilabel dataset.}
+\end{figure}
+
+
+
+\section{Binary Classification}
+\subsection{Best Results per Article}
+
+This section presents the best results for several evaluation metrics and each article. It also reports the corresponding flavor.
+
+	\input{data/analysis/tables/binary_acc_best.tex}
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_best.tex}
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_best.tex}
+	%\newpage
+	\input{data/analysis/tables/binary_precision_best.tex}
+	%\newpage
+	\input{data/analysis/tables/binary_recall_best.tex}
+	%\newpage
+
+\subsection{Summary \& Method ranking}
+
+	\input{data/analysis/tables/binary_acc_summary.tex}\\
+	\newpage
+	\input{data/analysis/tables/binary_f1_weighted_summary.tex}\\
+	\newpage
+	\input{data/analysis/tables/binary_mcc_summary.tex}\\
+	\newpage
+	\input{data/analysis/tables/binary_precision_summary.tex}\\
+	\newpage
+	\input{data/analysis/tables/binary_recall_summary.tex}\\
+	\newpage
+
+\subsection{Detailed Results}
+
+This section presents the results for each method on each article and for all evaluation metrics.
+It also reports the best normalized confusion matrices for each article.\\
+
+\noindent
+	\input{data/analysis/tables/binary_acc_article_10.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_11.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_13.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_14.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_2.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_3.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_34.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_5.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_6.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_8.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_acc_article_p1-1.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_10.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_11.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_13.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_14.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_2.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_3.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_34.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_5.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_6.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_8.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_f1_weighted_article_p1-1.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_10.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_11.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_13.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_14.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_2.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_3.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_34.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_5.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_6.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_8.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_mcc_article_p1-1.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_10.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_11.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_13.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_14.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_2.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_3.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_34.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_5.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_6.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_8.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_precision_article_p1-1.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_10.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_11.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_13.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_14.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_2.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_3.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_34.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_5.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_6.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_8.tex}~\\
+	%\newpage
+	\input{data/analysis/tables/binary_recall_article_p1-1.tex}~\\
+	%\newpage
+
+
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_10.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_11.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_13.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_14.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_2.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_3.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_34.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_5.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_6.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_8.png}  
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+    \includegraphics[scale=0.5]{data/analysis/cm/binary_cm_normalized_test_article_p1-1.png}  
+\end{figure}
+
+\newpage
+
+\section{Multiclass Classification}
+
+This section presents the results for each method on each article and for all evaluation metrics.
+It also reports the best normalized confusion matrices for each article.\\
+
+\noindent
+	\input{data/analysis/tables/multiclass_acc.tex}~\\
+	\input{data/analysis/tables/multiclass_balanced_acc.tex}~\\
+	\input{data/analysis/tables/multiclass_f1_weighted.tex}~\\
+	\input{data/analysis/tables/multiclass_mcc.tex}~\\
+	\input{data/analysis/tables/multiclass_precision.tex}~\\
+	\input{data/analysis/tables/multiclass_recall.tex}~\\
+
+~\\\newpage
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_adaboost_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_adaboost_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_adaboost_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_baggingclassifier_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_baggingclassifier_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_baggingclassifier_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_bernoulli_naive_bayes_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_bernoulli_naive_bayes_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_bernoulli_naive_bayes_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_decision_tree_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_decision_tree_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_decision_tree_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_ensemble_extra_tree_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_ensemble_extra_tree_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_ensemble_extra_tree_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_extra_tree_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_extra_tree_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_extra_tree_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_gradient_boosting_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_gradient_boosting_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_gradient_boosting_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_linear_svc_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_linear_svc_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_linear_svc_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_multinomial_naive_bayes_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_multinomial_naive_bayes_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_multinomial_naive_bayes_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_neural_net_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_neural_net_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_neural_net_descriptive_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_random_forest_bag-of-words_only.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_random_forest_descriptive_and_bag-of-words.png}  
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.7]{data/analysis/cm/multiclass_cm_test_random_forest_descriptive_only.png}  
+\end{figure}
+
+\newpage
+\section{Multilabel Classification}
+
+This section presents the results for each method on each article and for all evaluation metrics.\\
+
+\noindent
+	\input{data/analysis/tables/multilabel_acc.tex}~\\
+	\input{data/analysis/tables/multilabel_f1_weighted.tex}~\\
+	\input{data/analysis/tables/multilabel_hamming_loss.tex}~\\
+	\input{data/analysis/tables/multilabel_jaccard_similarity_score.tex}~\\
+	\input{data/analysis/tables/multilabel_precision.tex}~\\
+	\input{data/analysis/tables/multilabel_recall.tex}~\\
+	\input{data/analysis/tables/multilabel_zero_one_loss.tex}~\\
+
+
+\end{document}
